@@ -1,0 +1,250 @@
+*{
+    margin: 0PX;
+    padding: 0px; 
+    font-family: 'Abril Fatface',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 13px;
+    align-items: center;
+
+}
+.logo{
+    width: 135px;
+}
+.listitem{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+.link:hover{
+    color: red;
+}
+.title{
+    margin-left: 9%;
+    margin-top: 13%;
+}
+.title_h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+
+}
+#lastname{
+    color: orange;
+    font-weight: lighter;
+    font-size: 50px;
+
+}
+.title_p{
+    margin-bottom: 13px;
+    font-weight: lighter;
+
+}
+.download{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 30px 0px;
+    display: inline-block;
+    border-radius: 8px;
+}
+.images{
+    width: 15%;
+    height: 70%;
+    position: absolute;
+    right: 400px;
+    top: 200px;
+}
+.images img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translatex(-50%);
+    transition: bottom 1s ,left 2s;
+}
+#shape{
+    width: 350px;
+    height: 500px;
+    left: 156px;
+}
+
+.images:hover #shape{
+    bottom: 80px;
+}
+.images:hover #kuttai{
+    left: 40%;
+}
+#about{
+    margin: 18% 8% 0% 8px;
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: 40px;
+    font-weight: lighter;
+}
+.heading span{
+    font-size: 20px;
+    color: green;
+    font-weight: lighter;
+}
+.about_p{
+    margin-bottom: 13px;
+    font-weight: lighter;
+
+}
+.about-content{
+    margin-top: 2rem;
+    display: grid;
+   grid-template-columns: repeat(2 , 1fr);
+   gap: 2rem;
+}
+.about-img img{
+    width: 70%;
+    border-radius: 1rem;
+    margin-left: 100px;
+}
+.about-details{
+    font-weight: 10;
+    font-size: 20px;
+    text-align: justify;
+}
+.information{
+    margin-top: 1.5rem;
+}
+.info-box{
+    margin-bottom: 1rem;
+    font-weight: lighter;
+}
+.info-box span{
+    margin-left: 1rem;
+}
+#skills{
+    margin: 8% 8% 0px 8%;
+}
+.skill-content{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+} 
+.skill-img img{
+    width: 80%;
+    padding-left: 4rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+.bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.bar-container h3, span{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.base-bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 5rem;
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+}
+.html-bar{
+    background-color: #efaf00;
+    width: 95%;
+}
+.css-bar{
+    background-color: #efaf00;
+    width: 88%;
+}
+.react-bar{
+    background-color: #efaf00;
+    width: 89%;
+}
+.js-bar{
+    background-color: #efaf00;
+    width: 85%;
+}
+.contact-content{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-icon{
+    margin: 0px 10px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-icon i{
+    font-size: 30px; 
+    color: black;
+    padding: 0px 10px;
+}
+.contact-icon:hover{
+    background-image: linear-gradient(to bottom right,yellow,red);
+} 
+.contact-icon:hover i{
+    color: white;
+    animation: shake 0.75s; 
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    } 
+    40%{
+        transform: rotate(-15deg);
+    }
+
+}
+footer{
+    margin: 5rem 3rem;
+}
+.up-arrow{
+    float: right;
+    margin: 0px 2rem;
+    margin-bottom: 90px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right,yellow,red);
+
+}
+.up-arrow i{
+    font-size: 30px; 
+    padding: 10px 15px;
+}
+.up-arrow:hover i{
+    color: white;
+}
