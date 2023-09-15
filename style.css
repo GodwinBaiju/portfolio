@@ -79,16 +79,16 @@
     transition: bottom 1s ,left 2s;
 }
 #shape{
-    width: 350px;
-    height: 500px;
-    left: 156px;
+    width: 140%;
+    height: 103%;
+    left: 65%;
 }
 
 .images:hover #shape{
-    bottom: 80px;
+    bottom: 20%;
 }
 .images:hover #kuttai{
-    left: 40%;
+    left: 32%;
 }
 #about{
     margin: 18% 8% 0% 8px;
